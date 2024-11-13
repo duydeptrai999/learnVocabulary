@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="English Word"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/transparent"/>
+
+    <EditText
+        android:id="@+id/editVietnamese"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vietnamese Meaning"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/editDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="20dp" />
+</LinearLayout>
